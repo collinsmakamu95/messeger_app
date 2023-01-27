@@ -1,11 +1,11 @@
 import 'models.dart';
 
 final User user_0 = User(
-    name: const Name(first: 'Me', last: ''),
+    name: const Name(first: 'Darth', last: 'Woke'),
     avatarUrl: 'assets/avatar_1.png',
     lastActive: DateTime.now());
 final User user_1 = User(
-    name: const Name(first: '老', last: '强'),
+    name: const Name(first: 'Red', last: 'Man'),
     avatarUrl: 'assets/avatar_2.png',
     lastActive: DateTime.now().subtract(const Duration(minutes: 10)));
 final User user_2 = User(
@@ -25,8 +25,8 @@ final List<Email> emails = [
   Email(
     sender: user_1,
     recipients: [],
-    subject: '豆花鱼',
-    content: '最近忙吗？昨晚我去了你最爱的那家饭馆，点了他们的特色豆花鱼，吃着吃着就想你了。',
+    subject: 'Cow & Chicken',
+    content: 'The best cartoon ever. Debate me!',
   ),
   Email(
     sender: user_2,
