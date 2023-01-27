@@ -35,7 +35,7 @@ class _EmailWidgetState extends State<EmailWidget> {
   late Color unselectedColor = Color.alphaBlend(
     _colorScheme.primary.withOpacity(0.08),
     _colorScheme.surface,
-  );
+  ); 
 
   Color get _surfaceColor {
     if (!widget.isPreview) return _colorScheme.surface;
